@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "title": "first task",
+            "date": "2022-02-26",
+            "description":"description goes here...",
+            "project": "Main",
+            "completed": true,
+            "id": 1
+        },
+        {
+            "title": "second task",
+            "date": "2022-02-27",
+            "description":"description goes here...",
+            "project": "Secondary",
+            "completed": false,
+            "id": 2
+        },
+        {
+            "title": "this is a new task",
+            "date": "the date",
+            "description":"description goes here...",
+            "project": "new project",
+            "completed": false,
+            "id": 3
+        }
+    ]
+}
