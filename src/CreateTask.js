@@ -54,7 +54,6 @@ const CreateTask = () => {
                 </label>
                 <label>Task details:
                 <textarea
-                    required
                     value={description}
                     onChange={(e) => setDescription(e.target.value)}
                 />
