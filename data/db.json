@@ -1,12 +1,11 @@
 {
   "tasks": [
     {
-      "project": "due today",
-      "title": "due Today edited",
+      "project": "Main",
+      "title": "due Today",
       "description": "wow",
       "date": "2022-03-01",
-      "id": 7,
-      "completed": false
+      "id": 7
     },
     {
       "project": "due tomorrow",
@@ -49,6 +48,13 @@
       "description": "through pages",
       "date": "2022-03-04",
       "id": 14
+    },
+    {
+      "project": "dj kalid",
+      "title": "another one",
+      "description": "another task!",
+      "date": "2022-03-25",
+      "id": 15
     }
   ]
 }

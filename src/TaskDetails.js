@@ -43,9 +43,8 @@ const TaskDetails = () => {
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(newTask),
         }).then(() => {
-            console.log('new task added');
             setIsPending(false);
-            navigate('/');
+            navigate('/todolist/');
             window.location.reload(false)
         })
     }
