@@ -5,8 +5,8 @@ import useFetch from "./useFetch";
 const TaskDetails = () => {
 
     const {id} = useParams();
-    const {data: task, error, pending} = useFetch("http://localhost:8000/tasks/" + id)
-    const {data: tasks, errors, pendings} = useFetch("http://localhost:8000/tasks/")
+    const {data: task, error, pending} = useFetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks" + id)
+    const {data: tasks, errors, pendings} = useFetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks")
     console.log(task)
     const[title, setTitle] = useState('');
     const[project, setProject] = useState('');
