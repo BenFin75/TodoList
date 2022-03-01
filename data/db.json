@@ -1,28 +1,44 @@
 {
-    "tasks": [
-        {
-            "title": "first task",
-            "date": "2022-02-26",
-            "description":"description goes here...",
-            "project": "Main",
-            "completed": true,
-            "id": 1
-        },
-        {
-            "title": "second task",
-            "date": "2022-02-27",
-            "description":"description goes here...",
-            "project": "Secondary",
-            "completed": false,
-            "id": 2
-        },
-        {
-            "title": "this is a new task",
-            "date": "the date",
-            "description":"description goes here...",
-            "project": "new project",
-            "completed": false,
-            "id": 3
-        }
-    ]
+  "tasks": [
+    {
+      "project": "Main",
+      "title": "first task updated",
+      "description": "changed desc",
+      "date": "2022-02-26",
+      "id": 1,
+      "completed": false
+    },
+    {
+      "title": "second task",
+      "date": "2022-02-27",
+      "description": "description goes here...",
+      "project": "Secondary",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "project": "Secondary",
+      "title": "task2",
+      "description": "2",
+      "date": "2022-03-02",
+      "id": 4,
+      "completed": false
+    },
+    {
+      "project": "sheeesh",
+      "title": "wow",
+      "description": "another one",
+      "date": "2022-03-04",
+      "id": 5,
+      "completed": false
+    },
+    {
+      "project": "Love <3",
+      "title": "Give Isabelle a hug",
+      "description": "Give Isabelle the biggest hug!",
+      "date": "2022-02-28",
+      "id": 6,
+      "completed": false
+    }
+  ]
 }
