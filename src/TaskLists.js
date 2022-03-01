@@ -56,7 +56,6 @@ const TaskList = ({tasks}) => {
                             const projectStyle = {backgroundColor: projectColor}
                             return  <div key={index} className={`project ${task.id}`} onClick={handleLoadTask}>
                                         <div className="project-tag" style={projectStyle}></div>
-                                        {/* <div>{project}</div> */}
                                     </div>
                         }
                     })}
