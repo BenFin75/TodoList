@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import projectColors from "./ProjectColors";
-import useFetch from "./useFetch";
 
 const TaskList = ({tasks}) => {
     const projectsObj = projectColors.objOfProjectColors; //{Main: 'blue', Secondary: 'red'} ect.
