@@ -33,11 +33,11 @@ function App() {
         <div className="content">
           <Sidebar getFilter={getFilter} />
             <Routes>
-              <Route path="/" element={<Home filter={filter} />} />
-              <Route path="/create" element={<CreateTask />} />
-              <Route path="/task/:id" element={<TaskDetails />} />
-              <Route path='/users/signup' element={<SignUpPage />} />
-              <Route path='/users/login' element={<LogInPage />} />
+              <Route path="/todolist/" element={<Home filter={filter} />} />
+              <Route path="/todolist/create" element={<CreateTask />} />
+              <Route path="/todolist/task/:id" element={<TaskDetails />} />
+              <Route path='/todolist/users/signup' element={<SignUpPage />} />
+              <Route path='/todolist/users/login' element={<LogInPage />} />
             </Routes>
         </div>
         <Footer />

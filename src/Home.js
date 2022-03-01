@@ -1,4 +1,4 @@
-import { isAfter, isBefore, isSameDay, isToday, startOfToday } from "date-fns";
+import { isAfter, isBefore, isSameDay, startOfToday } from "date-fns";
 import { addDays, nextSunday, previousSunday } from "date-fns/esm";
 import { Link } from "react-router-dom";
 import projectColors from "./ProjectColors";
@@ -47,7 +47,7 @@ const Home = ({filter}) => {
             {isPending && <div className='pending'>Loading...</div>}
             {error && <div className="error">Theres has been an error fetching the data</div>}
             {tasks && <TaskList tasks={filteredTasks} />}
-            <Link to="/create">Add Task</Link>
+            <Link to="/todolist/create">Add Task</Link>
         </div>
     );
 }

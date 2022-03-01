@@ -51,7 +51,7 @@ const TaskDetails = () => {
     }
 
     const hnadleReturn = () => {
-        navigate('/');
+        navigate('/todolist/');
     }
 
     return (

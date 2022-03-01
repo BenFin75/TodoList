@@ -2,10 +2,11 @@
   "tasks": [
     {
       "project": "due today",
-      "title": "due Today",
+      "title": "due Today edited",
       "description": "wow",
       "date": "2022-03-01",
-      "id": 7
+      "id": 7,
+      "completed": false
     },
     {
       "project": "due tomorrow",
@@ -41,6 +42,13 @@
       "description": "wefgef",
       "date": "2022-03-01",
       "id": 13
+    },
+    {
+      "project": "new project",
+      "title": "added task",
+      "description": "through pages",
+      "date": "2022-03-04",
+      "id": 14
     }
   ]
 }

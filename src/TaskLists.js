@@ -16,9 +16,9 @@ const TaskList = ({tasks}) => {
 
     const handleLoadTask = (e) => {
         if (e.target.classList[1]) {
-            naviage(`/task/${e.target.classList[1]}`)
+            naviage(`/todolist/task/${e.target.classList[1]}`)
         } else {
-            naviage(`/task/${e.target.parentNode.classList[1]}`)
+            naviage(`/todolist/task/${e.target.parentNode.classList[1]}`)
         }
     }
 

@@ -35,7 +35,7 @@ const CreateTask = () => {
         }).then(() => {
             console.log('new task added');
             setIsPending(false);
-            navigate('/');
+            navigate('/todolist/');
             window.location.reload(false)
         })
     }
