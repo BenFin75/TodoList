@@ -7,7 +7,7 @@ const TaskList = ({tasks}) => {
     const naviage = useNavigate();
 
     const handleDelete = (e) => {
-        fetch("http://localhost:8000/tasks/" + e.target.classList[1], {
+        fetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks" + e.target.classList[1], {
             method: 'DELETE',
         }).then(() => {
             window.location.reload(false)
@@ -33,7 +33,7 @@ const TaskList = ({tasks}) => {
         })
         changedTask.completed = completed
         console.log(changedTask)
-        fetch("http://localhost:8000/tasks/" + id, {
+        fetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks" + id, {
             method: 'PUT',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(changedTask),

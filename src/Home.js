@@ -7,7 +7,7 @@ import useFetch from "./useFetch";
 
 const Home = ({filter}) => {
 
-    const {data: tasks, error, isPending} = useFetch("http://localhost:8000/tasks");
+    const {data: tasks, error, isPending} = useFetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks");
     let filteredTasks;
 
     if (tasks) {

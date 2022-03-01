@@ -38,7 +38,7 @@ const TaskDetails = () => {
 
         setIsPending(true);
 
-        fetch("http://localhost:8000/tasks/" + id, {
+        fetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks" + id, {
             method: 'PUT',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(newTask),

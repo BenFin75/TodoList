@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const SideBar = ({getFilter}) => {
 
-    const {data: tasks, errors, pending} = useFetch("http://localhost:8000/tasks");
+    const {data: tasks, errors, pending} = useFetch("https://my-json-server.typicode.com/benfin75/todolist-server/tasks");
     const projectsObj = projectColors.objOfProjectColors; //{Main: 'blue', Secondary: 'red'} ect.
 
     if (tasks) {
