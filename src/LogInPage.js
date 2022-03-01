@@ -10,8 +10,8 @@ const LogInPage = () => {
     }
 
     return (
-        <div className="signup">
-            <h1>Sign up!</h1>
+        <div className="login">
+            <h1>Log In! (Not real)</h1>
             <form onSubmit={handleSubmit}>
                 <label>
                     Username: 
