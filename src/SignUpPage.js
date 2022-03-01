@@ -12,7 +12,7 @@ const SignUpPage = () => {
 
     return (
         <div className="signup">
-            <h1>Sign up!</h1>
+            <h1>Sign up! (Not real)</h1>
             <form onSubmit={handleSubmit}>
                 <label>
                     Username: 
@@ -33,7 +33,7 @@ const SignUpPage = () => {
                     />
                 </label>
                 <label>
-                    Confirm Password: 
+                    Confirm password: 
                     <input
                         type='text'
                         required
