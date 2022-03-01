@@ -259,6 +259,53 @@ textarea:focus, input:focus{
 
 }
 
+/* login and signup style */
+.login, .signup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FFFF8F;
+  padding-top: 40px;
+}
+
+.signup h1, .login h1 {
+  font-family: 'Indie Flower';
+}
+
+.login label, .signup label {
+  font-family: 'Indie Flower';
+  border: 0;
+  width: 50%;
+  background-color: #FFFF8F;
+}
+.login input, .signup input {
+  font-family: 'Indie Flower';
+  border: 0;
+  background-color: #FFFF8F;
+  font-size: larger;
+  border-bottom: 2px solid black;
+  width: 80%;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.login>form, .signup>form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  font-family: 'Indie Flower';
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.login>form>:last-child, .signup>form>:last-child {
+  align-self: center;
+  margin-top: 30px;
+}
+
 /* footer styles */
 .footer {
   text-align: center;
