@@ -12,7 +12,7 @@ const projectColors = (() => {
         'lightgreen',
     ];
 
-    const listsOfProjectColors = {}
+    const objOfProjectColors = {};
 
     const setColors = (tasks) => {
         const projectList = [];
@@ -20,7 +20,8 @@ const projectColors = (() => {
         tasks.forEach((task)=>{
             const project = task.project;
             if(project) {
-                if (!projectList.includes(project)) {
+                if (!projectList.includes(project) && 
+                !Object.keys(objOfProjectColors).includes(project)) {
                     projectList.push(project);
                 }
             }
@@ -30,15 +31,17 @@ const projectColors = (() => {
 
         projectList.forEach((project) => {
             if (remainingColors.length === 0) {
-                remainingColors = possibleColors;
+                possibleColors.map((color) => {
+                    remainingColors.push(color);
+                })
             }
             const colorIndex = Math.floor(Math.random() * remainingColors.length);
-            listsOfProjectColors[project] = remainingColors[colorIndex];
+            objOfProjectColors[project] = remainingColors[colorIndex];
             remainingColors.splice(colorIndex, 1);
         });
     }
 
-    return {setColors, listsOfProjectColors}
+    return {setColors, objOfProjectColors}
 })()
  
 export default projectColors;
