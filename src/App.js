@@ -13,7 +13,6 @@ function App() {
   const [filter, setFilter] = useState('');
 
   const getFilter = (selection) => {
-    let newFilter;
     switch (selection) {
         case 'all':
         case 'today':
