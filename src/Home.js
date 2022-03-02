@@ -30,7 +30,6 @@ function Home({ filter }) {
           const today = startOfToday();
           const startOfWeek = previousSunday(today);
           const endOfWeek = nextSunday(today);
-          console.log(filter[1]);
           switch (filter[1]) {
             case 'today':
               return isSameDay(parsedDate, today);
